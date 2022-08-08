@@ -1,0 +1,113 @@
+.header {
+    width: 100%;
+    background: #fff;
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: 1.5rem 10rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+
+.logo h1 a {
+    font-size: 2.8rem;
+    color: #3AB0FF;
+}
+
+.menuIcon {
+    display: none;
+    font-size: 3.2rem;
+    cursor: pointer;
+}
+
+.header .list {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5rem;
+    gap: 5rem;
+}
+
+.list li a {
+    font-size: 1.7rem;
+    color: #666;
+    border-radius: 8px;
+    position: relative;
+}
+
+.list li a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: .2rem;
+    background: #3AB0FF;
+    transition: width .4s ease-in;
+}
+
+.list li a:hover::after  {
+    width: 100%;
+}
+
+@media only screen and (max-width: 840px) {
+    .header {
+        padding: 2.2rem 5rem;
+    }
+}
+
+@media only screen and (max-width: 716px) {
+    .header {
+        padding: 1.5rem 2.5rem;
+    }
+
+    .header nav {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem;
+        border-top: 1px solid rgba(0, 0, 0, .1);
+        border-bottom: 1px solid rgba(0, 0, 0, .1);
+        padding: 1rem;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        background: #fff;
+    }
+
+    nav.active {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .header .list {
+        gap: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0rem;
+    }
+
+    .list li {
+        width: 100%;
+        margin: 1rem;
+        background: rgb(236, 245, 255);
+        padding: 1.5rem;
+        text-align: end;
+        border-radius: 6px;
+    }
+
+    .list li a {
+        width: 100%;
+    }
+
+    .menuIcon {
+        display: inline-block;
+
+    }
+}

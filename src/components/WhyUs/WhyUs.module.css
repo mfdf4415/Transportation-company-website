@@ -1,0 +1,43 @@
+.row {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    margin: 4rem 0;
+}
+
+.rowItem {
+    padding: 3rem;
+    background: #fff;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor:default;
+}
+
+.rowItemTop {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.rowItemTop svg {
+    font-size: 3rem;
+    color: #5a5a5a;
+}
+
+.rowItemTop h3 {
+    font-size: 1.6rem;
+    color: #5a5a5a;
+}
+
+.rowItem p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #7a7a7a;
+}
+

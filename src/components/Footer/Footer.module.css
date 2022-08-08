@@ -1,0 +1,44 @@
+.footer {
+    position: static;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 4rem 8rem;
+    background: #fff;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    text-align: center;
+}
+
+.footer .logo h1 a {
+    font-size: 2.8rem;
+    color: #3AB0FF;
+}
+
+.footer hr {
+    width: 100%;
+    margin: 3.5rem 0;
+    border: 1px solid #d6d6d6;
+    border-radius: 6px ;
+}
+
+.description p {
+    font-size: 1.6rem;
+    color: #777;
+}
+
+.footer .icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.icons svg {
+    font-size: 3rem;
+    color: #555;
+}
+
+.icons svg:hover {
+    transform: scale(115%);
+    color: #333;
+}

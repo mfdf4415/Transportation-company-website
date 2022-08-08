@@ -1,0 +1,48 @@
+.ArticleHeaderContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left {
+    width: 100%;
+    background: #ddd;
+    height: .2rem;
+}
+
+.right {
+    width: 100%;
+    background: #ddd;
+    height: .2rem;
+}
+
+.ArticleHeaderContainer h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 2.4rem;
+    color: #444;
+    padding: 0 2rem;
+    position: relative;
+    width: 100%;
+}
+
+/* .ArticleHeaderContainer h2::after {
+    content: "";
+    width: 35%;
+    background: #ddd;
+    height: .2rem;
+    top: 50%;
+    left: 0;
+    position: absolute;
+}
+
+.ArticleHeaderContainer h2::before {
+    content: "";
+    width: 35%;
+    background: #ddd;
+    height: .2rem;
+    top: 50%;
+    right: 0;
+    position: absolute;
+} */
