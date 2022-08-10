@@ -1,0 +1,78 @@
+.callUs {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: right;
+    gap: 5rem;
+}
+
+.callUsTop {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10rem;
+}
+
+.callUsTop p {
+    flex: 1 1 60rem;
+    font-size: 1.7rem;
+    line-height: 3.5rem;
+    color: #666;
+}
+
+.callUsTop div {
+    flex: 1 1 30rem;
+}
+
+.callUsTop div img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.callUsBottom {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+.callUsBottom .item {
+    background: #fff;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    padding: 3rem 5rem;
+    flex: 1 1 35rem;
+    border-radius: 12px;
+}
+
+.callUsBottom .item .callUsBottomHeader {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1.5rem;
+}
+
+.callUsBottom .item .callUsBottomHeader h2 {
+    color: #444;
+    text-align: right;
+    font-size: 2rem;
+}
+
+.callUsBottom .item .callUsBottomHeader svg {
+    font-size: 3.5rem;
+    color: #3AB0FF;
+}
+
+
+.callUsBottom .item p {
+    color: #666;
+    font-size: 1.6rem;
+    line-height: 4rem;
+    margin: 0 3rem .5rem 0;
+}

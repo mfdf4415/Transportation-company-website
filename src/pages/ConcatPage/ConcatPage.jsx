@@ -1,5 +1,8 @@
+import CallUs from "../../components/CallUs/CallUs";
+import Wrapper from "../../hoc/Wrapper";
+
 const ConcatPage = () => {
-    return ( <p>concat page</p> )
-}
- 
-export default ConcatPage;
+  return <CallUs />;
+};
+
+export default Wrapper(ConcatPage);
