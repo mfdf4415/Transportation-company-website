@@ -51,8 +51,14 @@
     transition: width .4s ease-in;
 }
 
+
+
 .list li a:hover::after  {
     width: 100%;
+}
+
+.lis li a.active::after {
+    background: #3AB0FF;
 }
 
 @media only screen and (max-width: 840px) {

@@ -25,7 +25,11 @@ body {
 
 section , article {
   width: 100%;
-  margin: 10rem 0;
+  margin: 8rem 0;
+}
+
+section:last-child , article:last-child {
+  margin-bottom: 0rem;
 }
 
 section:first-child {

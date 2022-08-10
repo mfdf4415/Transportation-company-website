@@ -12,7 +12,7 @@
     padding: 3rem;
     background: #fff;
     box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
-    border-radius: 10px;
+    border-radius: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,19 +20,16 @@
     cursor:default;
 }
 
-.rowItemTop {
-    text-align: center;
-    margin-bottom: 1rem;
-}
 
-.rowItemTop svg {
+.rowItem svg {
     font-size: 3rem;
     color: #5a5a5a;
 }
 
-.rowItemTop h3 {
+.rowItem h3 {
     font-size: 1.6rem;
     color: #5a5a5a;
+    margin-bottom: .5rem;
 }
 
 .rowItem p {

@@ -1,5 +1,10 @@
 import ArticleHeader from "../ArticleHeader/ArticleHeader";
-import { AiFillDollarCircle } from "react-icons/ai";
+import {
+  AiOutlineDollarCircle,
+  AiOutlineUser,
+  AiOutlineCheck,
+} from "react-icons/ai";
+import { BsBox, BsClock } from "react-icons/bs";
 import style from "./WhyUs.module.css";
 
 const WhyUs = () => {
@@ -8,39 +13,44 @@ const WhyUs = () => {
       <ArticleHeader text="چرا باربری تهران" />
       <div className={style.row}>
         <div className={style.rowItem}>
-          <div className={style.rowItemTop}>
-            <AiFillDollarCircle />
-            <h3>ارزان قیمت</h3>
-          </div>
-          <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است</p>
+          <AiOutlineDollarCircle />
+          <h3>ارزان قیمت</h3>
+          <p>
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+            استفاده از طراحان گرافیک است
+          </p>
         </div>
         <div className={style.rowItem}>
-          <div className={style.rowItemTop}>
-            <AiFillDollarCircle />
-            <h3>سرعت بالا</h3>
-          </div>
-          <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است</p>
+          <BsClock />
+          <h3>سرعت بالا</h3>
+          <p>
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+            استفاده از طراحان گرافیک است
+          </p>
         </div>
         <div className={style.rowItem}>
-          <div className={style.rowItemTop}>
-            <AiFillDollarCircle />
-            <h3>بسته بندی مناسب</h3>
-          </div>
-          <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است</p>
+          <BsBox />
+          <h3>بسته بندی مناسب</h3>
+          <p>
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+            استفاده از طراحان گرافیک است
+          </p>
         </div>
         <div className={style.rowItem}>
-          <div className={style.rowItemTop}>
-            <AiFillDollarCircle />
-            <h3>کادر مجرب</h3>
-          </div>
-          <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است</p>
+          <AiOutlineUser />
+          <h3>کادر مجرب</h3>
+          <p>
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+            استفاده از طراحان گرافیک است
+          </p>
         </div>
         <div className={style.rowItem}>
-          <div className={style.rowItemTop}>
-            <AiFillDollarCircle />
-            <h3> +۵ سال سابقه</h3>
-          </div>
-          <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است</p>
+          <AiOutlineCheck />
+          <h3> +۵ سال سابقه</h3>
+          <p>
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+            استفاده از طراحان گرافیک است
+          </p>
         </div>
       </div>
     </article>

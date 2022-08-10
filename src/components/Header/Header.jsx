@@ -16,19 +16,29 @@ const Header = () => {
       <nav className={activeNav ? style.active : ""}>
         <ul className={style.list}>
           <li>
-            <NavLink to="/concat">تماس با ما</NavLink>
+            <NavLink activeClassName={style.active} to="/concat">
+              تماس با ما
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/cartoon"> کارتون مخصوص</NavLink>
+            <NavLink activeClassName={style.active} to="/cartoon">
+              کارتون مخصوص
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/packing">بسته بندی</NavLink>
+            <NavLink activeClassName={style.active} to="/packing">
+              بسته بندی
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/moving">اسباب کشی</NavLink>
+            <NavLink activeClassName={style.active} to="/moving">
+              اسباب کشی
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/">اتو بار تهران</NavLink>
+            <NavLink activeClassName={style.active} to="/">
+              اتو بار تهران
+            </NavLink>
           </li>
         </ul>
       </nav>

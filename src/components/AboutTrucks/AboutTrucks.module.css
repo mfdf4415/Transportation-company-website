@@ -1,0 +1,34 @@
+.trucksContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+.trucksContainer .img {
+    flex: 1 1 50rem;
+}
+
+.trucksContainer .img img {
+    width: 100%;
+}
+
+.content {
+    flex: 1 1 45rem;
+    align-self: flex-start;
+    text-align: right;
+    line-height: 3.7rem;
+}
+
+.content h2 {
+    font-size: 2.4rem;
+    color: #444;
+    margin-bottom: 2rem;
+}
+
+.content p {
+    font-size: 1.5rem;
+    color: #666;
+}
